@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture 4</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    .box {
+      width: 385px;
+      height: 110px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+    .block:nth-child(odd) {
+      background: #F2994A;
+      border-radius: 10px 10px 0 0;
+
+    }
+    .block:nth-child(n+8) {
+      border-radius: 0 0 10px 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container wrapper-center">
+    <div class="box">
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+  </div>
+</body>
+
+</html>
