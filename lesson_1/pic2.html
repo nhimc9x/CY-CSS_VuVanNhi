@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture 2</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    .box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .block {
+      width: 55px;
+      height: 55px;
+      transform: rotate(45deg);
+      /* (77.78 - 55) / 2 */
+      margin: 11.4px;
+      /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%); */
+    }
+    .block-1 {
+      background: #F2994A;
+    }
+    .block-2 {
+      background: #9B51E0;
+    }
+    .block-3 {
+      background: #2F80ED;
+    }
+    .block-4 {
+      background: #EB5757;
+    }
+  </style>
+</head>
+<body>
+  <div class="container wrapper-center">
+    <div class="box">
+      <div class="block block-1"></div>
+      <div class="block block-2"></div>
+      <div class="block block-3"></div>
+      <div class="block block-4"></div>
+    </div>
+  </div>
+</body>
+</html>
