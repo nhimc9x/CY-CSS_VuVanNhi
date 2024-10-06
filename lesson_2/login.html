@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="bg-gray">
+  <div class="container">
+    <div class="box-login">
+
+      <div class="login-title">Log in</div>
+
+      <div class="close-btn">
+        <img src="assets/icon/login-close.svg" alt="close-btn">
+      </div>
+
+      <div class="google-btn">
+        <div class="google-ic">
+          <img src="assets/icon/google-icon.svg" alt="google-icon">
+        </div>
+        <div class="google-text">Login with Google</div>
+      </div>
+
+      <div class="line"></div>
+
+      <form class="form-login">
+        <div class="form-control">
+          <label for="email-login">Email</label>
+          <input id="email-login" type="email" placeholder="leslie@pixsellz.io" required>
+        </div>
+        <div class="form-control">
+          <label for="pass-login">Password</label>
+          <input id="pass-login" type="password" placeholder="••••••••••••" required>
+          <div class="show-pass-btn" onclick="showPass()">
+            <img src="assets/icon/eye-icon.svg" alt="">
+          </div>
+        </div>
+        <div class="remenber-checkbox">
+          <input type="checkbox" name="" id="remenber-me">
+          <label for="remenber-me">Remenber me</label>
+        </div>
+        <button class="form-submit-btn" type="submit">Log in</button>
+      </form>
+
+      <a class="forgot-pass-btn" href="">Forgot Password?</a>
+      <div class="line"></div>
+      <div class="signup-link">
+        <div class="signup-link-text">Don´t have an account?</div>
+        <a class="signup-link-btn" href="">Sign up</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  const showPass = () => {
+    const pass = document.getElementById("pass-login");
+    pass.type === "password" ? pass.type = "text" : pass.type = "password";
+  }
+</script>
+</html>

@@ -1,0 +1,8 @@
+        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2.50249" y="1.75633" width="40.7817" height="40.7817" rx="20.3909" stroke="black"
+            stroke-opacity="0.1" stroke-width="3.13706" />
+          <rect x="15.5735" y="28.0694" width="18.727" height="1.97653" rx="0.988267"
+            transform="rotate(-45 15.5735 28.0694)" fill="#929292" />
+          <rect width="18.727" height="1.97653" rx="0.988267"
+            transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 30.2131 28.0694)" fill="#929292" />
+        </svg>
