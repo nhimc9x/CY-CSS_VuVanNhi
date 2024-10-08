@@ -1,0 +1,9 @@
+@mixin typography($font-size: 1.6rem, $font-weight: 400, $line-height: 3rem) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+@mixin grid-columns($columns: 3) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+}
