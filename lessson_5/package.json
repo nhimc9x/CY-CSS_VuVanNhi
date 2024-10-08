@@ -1,0 +1,13 @@
+{
+  "name": "lessson_5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass ./assets/scss/main.scss ./assets/css/style.css",
+    "start": "sass --watch ./assets/scss/main.scss ./assets/css/style.css"
+  },
+  "dependencies": {
+    "sass": "^1.79.4"
+  }
+}
